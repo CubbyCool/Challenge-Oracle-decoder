@@ -1,0 +1,105 @@
+*{
+    background: rgb(66, 167, 234);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-left: 180px;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    height: 300px;
+    border: none;
+    color: darkblue;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+
+::placeholder { color:rgb(255, 255, 255); }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensaje{
+    height: 440px;
+    background: white;
+    background-image: url(imagenes/cohete.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    border: none;
+    border-radius: 24px;
+    color: orange;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.bot-desencriptar{
+    background: white;
+    border:  1px solid rgb(66, 167, 234);
+    border-radius: 24px;
+    color: darkblue;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    transition: 1s all;
+}
+
+.bot-desencriptar:hover, .bot-encriptar:hover, .copiar:hover{
+    background: greenyellow;
+    transform: scale(0.8);
+}
+
+.bot-encriptar{
+    background: rgb(255, 0, 0);
+    border: 1px solid rgb(66, 167, 234);
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    transition: 1s all;
+}
+
+.copiar{
+    background-color: orange;
+    border: 1px solid rgb(66, 167, 234);
+    border-radius: 24px;
+    color: darkblue;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 475px;
+    position: absolute;
+    width: 336px;
+    transition: 1s all;
+}
+
+.informacion{
+    color: rgb(49, 46, 46);
+    font-size: 18px;
+}
